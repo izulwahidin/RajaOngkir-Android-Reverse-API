@@ -11,7 +11,7 @@ $from_to = (object) [
 ];
 
 print_r(
-    show::init($from_to)->lion()
+    show::init($from_to, 1000)->lion()
 );
 // print_r(
 //     show::init($from_to)->jne()
