@@ -1,7 +1,7 @@
 <?php namespace Wahidin\Ongkir\Fetch;
 
 class get{
-    public static function data($courier, $from_to, $weight=1000){
+    public static function data($courier, $from_to, $weight){
 
         $query['courier'] = $courier['name'];
         $query['destination'] = $from_to->destination;
